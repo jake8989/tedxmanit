@@ -130,9 +130,7 @@ const About = () => {
 						</Typography>
 					</Box>
 					<Box width={'75%'} marginTop="20px">
-						<Typography sx={{ color: 'black' }} variant="h3">
-							About
-						</Typography>
+
 						<Typography
 							className={classes.heading}
 							variant="h3"

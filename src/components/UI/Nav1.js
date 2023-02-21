@@ -37,16 +37,8 @@ const x = [
 		dest: '#about',
 	},
 	{
-		name: 'Events',
-		dest: '#events',
-	},
-	{
 		name: 'Speakers',
 		dest: '#speakers',
-	},
-	{
-		name: 'Sponsors',
-		dest: '#sponsors',
 	},
 	{
 		name: 'Contact Us',
