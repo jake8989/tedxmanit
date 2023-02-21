@@ -30,23 +30,23 @@ const navItems = [
 const x = [
 	{
 		name: 'Home',
-		dest: '/tedxmanit#home',
+		dest: '#home',
 	},
 	{
 		name: 'About us',
-		dest: '/tedxmanit#about',
+		dest: '#about',
 	},
 	{
 		name: 'Events',
-		dest: '/tedxmanit#events',
+		dest: '#events',
 	},
 	{
 		name: 'Speakers',
-		dest: '/tedxmanit#speakers',
+		dest: '#speakers',
 	},
 	{
 		name: 'Sponsors',
-		dest: '/tedxmanit#sponsors',
+		dest: '#sponsors',
 	},
 	{
 		name: 'Contact Us',
