@@ -1,13 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
-
 import Nav1 from './components/UI/Nav1';
-
+import Sponsors from './components/UI/Sponsors';
+import { Typography } from '@mui/material';
+import About from './components/About';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+// import NotFound from './components/UI/NotFound';
+import Home from './pages/Home';
+const router = createBrowserRouter([
+	{
+		path: '/tedxmanit/',
+		element: <Home />,
+	},
+	{
+		path: '/tedxmanit/team',
+		// element: <TeamPage />,
+	},
+	{
+		path: '*',
+		// element: <NotFound></NotFound>,
+	},
+]);
 function App() {
 	return (
 		<>
-			<h1>Hello</h1>
-			<Nav1 />
+			<RouterProvider router={router} />
 		</>
 	);
 }

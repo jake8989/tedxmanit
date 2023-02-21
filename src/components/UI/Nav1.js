@@ -14,7 +14,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import ISTElogo from '../../assets/ISTElogo.svg';
+import ISTElogo from '../../assets/tedxmanitblack.png';
 import { useNavigate } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 const drawerWidth = 240;
@@ -30,23 +30,23 @@ const navItems = [
 const x = [
 	{
 		name: 'Home',
-		dest: '/main-website22#home',
+		dest: '/tedxmanit#home',
 	},
 	{
 		name: 'About us',
-		dest: '/main-website22#about',
+		dest: '/tedxmanit#about',
 	},
 	{
 		name: 'Events',
-		dest: '/main-website22#events',
+		dest: '/tedxmanit#events',
+	},
+	{
+		name: 'Speakers',
+		dest: '/tedxmanit#speakers',
 	},
 	{
 		name: 'Sponsors',
-		dest: '/main-website22#sponsors',
-	},
-	{
-		name: 'Our Team',
-		dest: '/main-website22/team',
+		dest: '/tedxmanit#sponsors',
 	},
 	{
 		name: 'Contact Us',
@@ -69,21 +69,28 @@ function Nav1(props) {
 			onClick={handleDrawerToggle}
 			sx={{
 				textAlign: 'center',
-				backgroundColor: 'rgb(30, 30, 30)',
-				color: 'white',
+				backgroundColor: 'white',
+				color: 'black',
 				height: '100%',
 			}}
 		>
 			<Typography variant="h6" sx={{ my: 2, textAlign: '-webkit-center' }}>
-				<img src={ISTElogo} />
+				<img height={'60px'} style={{ height: '60px' }} src={ISTElogo} />
 			</Typography>
 			{/* <Divider /> */}
 			<List>
 				{x.map((item) => (
 					<ListItem key={item} disablePadding>
 						<ListItemButton sx={{ display: 'flex', justifyContent: 'center' }}>
-							<HashLink smooth to={item.dest} sx={{ textDecoration: 'none' }}>
-								<ListItemText primary={item.name} />
+							<HashLink
+								smooth
+								to={item.dest}
+								style={{ color: 'black', textDecoration: 'none' }}
+							>
+								<ListItemText
+									primary={item.name}
+									sx={{ color: 'black', textDecoration: 'none' }}
+								/>
 							</HashLink>
 						</ListItemButton>
 					</ListItem>
@@ -102,8 +109,8 @@ function Nav1(props) {
 				<AppBar
 					component="nav"
 					sx={{
-						color: 'white',
-						backgroundColor: 'rgb(30, 30, 30)',
+						color: 'black',
+						backgroundColor: 'white',
 						zIndex: '1000',
 					}}
 				>
@@ -122,15 +129,15 @@ function Nav1(props) {
 							component="div"
 							sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
 						>
-							<img src={ISTElogo} />
+							<img height="60px" src={ISTElogo} />
 						</Typography>
 						<Box sx={{ display: { xs: 'none', sm: 'block' } }}>
 							{x.map((item) => (
-								<Button key={item.name} sx={{ color: '#fff' }}>
+								<Button key={item.name} sx={{ color: 'black' }}>
 									<HashLink
 										smooth
 										to={item.dest}
-										sx={{ textDecoration: 'none' }}
+										style={{ color: 'black', textDecoration: 'none' }}
 									>
 										{item.name}
 									</HashLink>
