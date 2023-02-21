@@ -8,11 +8,11 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './pages/Home';
 const router = createBrowserRouter([
 	{
-		path: '/tedxmanit/',
+		path: '/',
 		element: <Home />,
 	},
 	{
-		path: '/tedxmanit/team',
+		path: '/team',
 		// element: <TeamPage />,
 	},
 	{
