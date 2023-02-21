@@ -1,0 +1,42 @@
+.container_ {
+    background-image: url('../../assets/Backgrounds/bg15.jpg');
+
+    /* Set a specific height */
+    min-height: 400px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+@media(max-width: 750px) {
+    .container_ {
+        background-image: url('../../assets/Backgrounds/bg17.jpg');
+
+        /* Set a specific height */
+        min-height: 400px;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        /* background-position: center; */
+        /* background-repeat: no-repeat; */
+        /* background-size: cover; */
+
+        width: 100%;
+        height: 100vh;
+    }
+}
