@@ -17,14 +17,14 @@ export const App = () => {
 				<img src={ISTE} className="iste" />
 				<img src={logo} className="tedx" />
 				<Box display="flex" gap={'15px'}>
-					<Button
+					{/* <Button
 						variant="contained"
 						sx={{ background: 'red' }}
 						disableElevation
 					>
 						{' '}
 						Register Now!
-					</Button>
+					</Button> */}
 					<Button
 						sx={{ background: 'black', color: 'red', border: 'red' }}
 						variant="outlined"

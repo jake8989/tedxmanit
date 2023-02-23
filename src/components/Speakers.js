@@ -1,6 +1,6 @@
 import React from 'react';
 import { Paper, Box, Typography } from '@mui/material';
-import imgSpk from '../assets/team_img/ShubhAsati.png';
+import imgSpk from '../assets/team_img/dummy.png';
 import { makeStyles } from '@material-ui/styles';
 const useStyles = makeStyles({
 	heading__: {
@@ -97,7 +97,7 @@ const Speakers = () => {
 							}}
 						>
 							<Typography variant="h3" color="red" marginTop={'20px'}>
-								Spearker-1
+								Speaker-1
 							</Typography>
 							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam
 							repudiandae harum dolore expedita nam, non error possimus rem
@@ -144,7 +144,7 @@ const Speakers = () => {
 									},
 								}}
 							>
-								Spearker-2
+								Speaker-2
 							</Typography>
 							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam
 							repudiandae harum dolore expedita nam, non error possimus rem
@@ -217,7 +217,7 @@ const Speakers = () => {
 							}}
 						>
 							<Typography variant="h3" color="red" marginTop={'20px'}>
-								Spearker-3
+								Speaker-3
 							</Typography>
 							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam
 							repudiandae harum dolore expedita nam, non error possimus rem
