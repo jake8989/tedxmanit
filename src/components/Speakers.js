@@ -81,6 +81,7 @@ const Speakers = () => {
 									height: '270px',
 									borderRadius: '15px 50px',
 									objectFit: 'cover',
+									width: '270px',
 								}}
 								src={imgSpk}
 								alt=""
@@ -173,6 +174,7 @@ const Speakers = () => {
 									height: '270px',
 									borderRadius: '15px 50px',
 									objectFit: 'cover',
+									width: '270px',
 								}}
 								src={imgSpk}
 								alt=""
@@ -202,6 +204,7 @@ const Speakers = () => {
 									height: '270px',
 									borderRadius: '15px 50px',
 									objectFit: 'cover',
+									width: '270px',
 								}}
 								src={imgSpk}
 								alt=""
