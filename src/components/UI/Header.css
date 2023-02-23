@@ -26,8 +26,14 @@
     justify-content: center;
     align-items: center;
 }
+.iste{
+    width: 50%;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
 
-.container_ div img{
+.tedx{
     width: 100%;
     min-height: 200px;
 }
@@ -38,6 +44,11 @@ body {
 
 .container_ h1{
     color: white;
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
 }
 
 @media(max-width: 750px) {

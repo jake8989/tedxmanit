@@ -7,13 +7,15 @@ import { Typography } from '@mui/material';
 import { motion } from 'framer-motion';
 import classes from './Header.module.css';
 import logo from '../../assets/tedxmanit.png';
+import ISTE from '../../assets/ISTElogo.svg';
 
 import './Header.css';
 export const App = () => {
     return (
         <div className="container_">
-            <div>
-                <img src={logo}/>
+            <div className="logos">
+                <img src={ISTE} className='iste'/>
+                <img src={logo} className='tedx'/>
             </div>
         </div>
     );
