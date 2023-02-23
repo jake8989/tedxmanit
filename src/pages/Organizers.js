@@ -115,7 +115,7 @@ const Organizers = () => {
 							alt=""
 						/>
 						<Typography textAlign={'center'} variant="h5">
-							NayvaSree Konagalla
+							Navyasree Konagalla
 						</Typography>
 						<Typography
 							textAlign={'center'}
