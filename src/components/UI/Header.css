@@ -1,71 +1,71 @@
 .container_ {
-    background-image: url('../../assets/Backgrounds/bg15.jpg');
+	background-image: url('../../assets/Backgrounds/bg15.jpg');
 
-    /* Set a specific height */
-    min-height: 400px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	/* Set a specific height */
+	min-height: 400px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 0;
-    margin: 0;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 0;
+	margin: 0;
 }
 
-.container_ div{
-    height: 100%;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container_ div {
+	/* height: 100%; */
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.iste{
-    width: 50%;
-    height: 100px;
-    margin: 0;
-    padding: 0;
+.iste {
+	width: 50%;
+	height: 100px;
+	margin: 0;
+	padding: 0;
 }
 
-.tedx{
-    width: 100%;
-    min-height: 200px;
+.tedx {
+	width: 100%;
+	min-height: 200px;
 }
 
 body {
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
 
-.container_ h1{
-    color: white;
+.container_ h1 {
+	color: white;
 }
 
-.logos{
-    display: flex;
-    flex-direction: column;
+.logos {
+	display: flex;
+	flex-direction: column;
 }
 
-@media(max-width: 750px) {
-    .container_ {
-        background-image: url('../../assets/Backgrounds/bg17.jpg');
+@media (max-width: 750px) {
+	.container_ {
+		background-image: url('../../assets/Backgrounds/bg17.jpg');
 
-        min-height: 400px;
-        background-attachment: fixed;
+		min-height: 400px;
+		background-attachment: fixed;
 
-        justify-content: center;
-        align-items: center;
+		justify-content: center;
+		align-items: center;
 
-        width: 100%;
-        height: 100vh;
-    }
+		width: 100%;
+		height: 100vh;
+	}
 
-    .container_ div{
-        width: 100%;
-    }
+	.container_ div {
+		width: 100%;
+	}
 }
