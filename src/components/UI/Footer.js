@@ -92,7 +92,7 @@ const Footer = (props) => {
 								target="_blank"
 								style={{ textDecoration: 'none', color: 'white' }}
 							>
-								<Typography>istescmanit@gmail.com</Typography>
+								<Typography>tedxmanitbhopal@gmail.com</Typography>
 							</a>
 						</p>
 					</div>

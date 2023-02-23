@@ -6,6 +6,7 @@ import About from './components/About';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 // import NotFound from './components/UI/NotFound';
+import Organizers from './pages/Organizers';
 import Home from './pages/Home';
 const router = createBrowserRouter([
 	{
@@ -13,8 +14,8 @@ const router = createBrowserRouter([
 		element: <Home />,
 	},
 	{
-		path: '/team',
-		// element: <TeamPage />,
+		path: '/organizers',
+		element: <Organizers />,
 	},
 	{
 		path: '*',
