@@ -14,7 +14,9 @@ export const App = () => {
 	return (
 		<div className="container_">
 			<div className="logos">
-				<img src={ISTE} className="iste" />
+				<a href="https://www.istemanit.in/">
+					<img src={ISTE} className="iste" />
+				</a>
 				<img src={logo} className="tedx" />
 				<Box display="flex" gap={'15px'}>
 					{/* <Button
