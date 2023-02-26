@@ -14,7 +14,11 @@ export const App = () => {
 	return (
 		<div className="container_">
 			<div className="logos">
-				<a href="https://www.istemanit.in/">
+				<a
+					href="https://www.istemanit.in/"
+					style={{ width: '100%', textAlign: 'center' }}
+					target="_blank"
+				>
 					<img src={ISTE} className="iste" />
 				</a>
 				<img src={logo} className="tedx" />
