@@ -35,7 +35,7 @@
 
 .tedx {
 	width: 100%;
-	min-height: 200px;
+	min-height: 150px;
 }
 
 body {
@@ -65,7 +65,7 @@ body {
 		height: 100vh;
 	}
 	.tedx{
-		min-height: 125px;
+		min-height: 100px;
 	}
 	.container_ div {
 		width: 100%;
