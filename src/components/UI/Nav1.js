@@ -71,7 +71,7 @@ function Nav1(props) {
 			}}
 		>
 			<Typography variant="h6" sx={{ my: 2, textAlign: '-webkit-center' }}>
-				<img height={'60px'} style={{ height: '60px' }} src={ISTElogo} />
+				<img height={'60px'} style={{ height: '60px', width: '100%' }} src={ISTElogo} />
 			</Typography>
 			{/* <Divider /> */}
 			<List>
