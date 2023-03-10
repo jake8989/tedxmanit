@@ -23,6 +23,18 @@ const a = parseImage(
 const b = parseImage(
 	'https://drive.google.com/open?id=1t_vyJNV3el7GI5uFV6MLgtzFTrk0b2PE'
 );
+const c = parseImage(
+	'https://drive.google.com/open?id=1Mckp_HeLROZtLPnG5qXahRKGGyjbeQAe'
+);
+const d = parseImage(
+	'https://drive.google.com/open?id=1kajCOnQzlFK84IigBnrhskHpjC-S4HwO'
+);
+const e = parseImage(
+	'https://drive.google.com/open?id=1zl6VlaMgD7QmY5GNiiJEQL7qJq8LjrQM'
+);
+const f = parseImage(
+	'https://drive.google.com/open?id=1AkO-b4Tw3qLmHqgHe3sU_RBTZLq3OLhs'
+);
 const Organizers = () => {
 	return (
 		<div>
@@ -140,6 +152,226 @@ const Organizers = () => {
 									<a
 										target={'__blank'}
 										href="https://instagram.com/nav.yeahhh?igshid=ZDdkNTZiNTM="
+									>
+										<InstagramIcon
+											sx={{
+												color: 'black',
+											}}
+										></InstagramIcon>
+									</a>
+								</Button>
+							</Tooltip>
+							<Tooltip title="FaceBook" arrow>
+								<Button sx={{ minWidth: '0px' }}>
+									<a target={'__blank'}>
+										<FacebookIcon sx={{ color: 'black' }}></FacebookIcon>
+									</a>
+								</Button>
+							</Tooltip>
+						</div>
+					</Box>
+					<Box>
+						<img
+							style={{
+								height: '270px',
+								borderRadius: '15px 50px',
+								objectFit: 'cover',
+								width: '270px',
+							}}
+							src={c}
+							alt=""
+						/>
+						<Typography textAlign={'center'} variant="h5">
+							Shubh Asati
+						</Typography>
+						<Typography
+							textAlign={'center'}
+							variant="h6"
+							sx={{ opacity: '0.7' }}
+						>
+							Bhopal, India <br /> Head Technical
+						</Typography>
+						<div style={{ display: 'flex', justifyContent: 'center' }}>
+							<Tooltip title="Linkedin" arrow>
+								<Button sx={{ minWidth: '0px' }}>
+									<a
+										target={'__blank'}
+										href="https://www.linkedin.com/in/shubh-asati/"
+									>
+										<LinkedInIcon sx={{ color: 'black' }}></LinkedInIcon>
+									</a>
+								</Button>
+							</Tooltip>
+							<Tooltip title="Instagram" arrow>
+								<Button sx={{ minWidth: '0px' }}>
+									<a
+										target={'__blank'}
+										href=""
+									>
+										<InstagramIcon
+											sx={{
+												color: 'black',
+											}}
+										></InstagramIcon>
+									</a>
+								</Button>
+							</Tooltip>
+							<Tooltip title="FaceBook" arrow>
+								<Button sx={{ minWidth: '0px' }}>
+									<a target={'__blank'}>
+										<FacebookIcon sx={{ color: 'black' }}></FacebookIcon>
+									</a>
+								</Button>
+							</Tooltip>
+						</div>
+					</Box>
+					<Box>
+						<img
+							style={{
+								height: '270px',
+								borderRadius: '15px 50px',
+								objectFit: 'cover',
+								width: '270px',
+							}}
+							src={d}
+							alt=""
+						/>
+						<Typography textAlign={'center'} variant="h5">
+							Tushar Gehlot
+						</Typography>
+						<Typography
+							textAlign={'center'}
+							variant="h6"
+							sx={{ opacity: '0.7' }}
+						>
+							Bhopal, India <br /> Head Web Operations
+						</Typography>
+						<div style={{ display: 'flex', justifyContent: 'center' }}>
+							<Tooltip title="Linkedin" arrow>
+								<Button sx={{ minWidth: '0px' }}>
+									<a
+										target={'__blank'}
+										href="https://www.linkedin.com/in/tushar-gehlot-50502420a/"
+									>
+										<LinkedInIcon sx={{ color: 'black' }}></LinkedInIcon>
+									</a>
+								</Button>
+							</Tooltip>
+							<Tooltip title="Instagram" arrow>
+								<Button sx={{ minWidth: '0px' }}>
+									<a
+										target={'__blank'}
+										href=""
+									>
+										<InstagramIcon
+											sx={{
+												color: 'black',
+											}}
+										></InstagramIcon>
+									</a>
+								</Button>
+							</Tooltip>
+							<Tooltip title="FaceBook" arrow>
+								<Button sx={{ minWidth: '0px' }}>
+									<a target={'__blank'}>
+										<FacebookIcon sx={{ color: 'black' }}></FacebookIcon>
+									</a>
+								</Button>
+							</Tooltip>
+						</div>
+					</Box>
+					<Box>
+						<img
+							style={{
+								height: '270px',
+								borderRadius: '15px 50px',
+								objectFit: 'cover',
+								width: '270px',
+							}}
+							src={e}
+							alt=""
+						/>
+						<Typography textAlign={'center'} variant="h5">
+							Jayant Dhakad
+						</Typography>
+						<Typography
+							textAlign={'center'}
+							variant="h6"
+							sx={{ opacity: '0.7' }}
+						>
+							Bhopal, India <br /> Web Developer
+						</Typography>
+						<div style={{ display: 'flex', justifyContent: 'center' }}>
+							<Tooltip title="Linkedin" arrow>
+								<Button sx={{ minWidth: '0px' }}>
+									<a
+										target={'__blank'}
+										href="https://www.linkedin.com/in/jayant-dhakad-8a5517233/"
+									>
+										<LinkedInIcon sx={{ color: 'black' }}></LinkedInIcon>
+									</a>
+								</Button>
+							</Tooltip>
+							<Tooltip title="Instagram" arrow>
+								<Button sx={{ minWidth: '0px' }}>
+									<a
+										target={'__blank'}
+										href="https://www.instagram.com/jayant_dhakad.1/"
+									>
+										<InstagramIcon
+											sx={{
+												color: 'black',
+											}}
+										></InstagramIcon>
+									</a>
+								</Button>
+							</Tooltip>
+							<Tooltip title="FaceBook" arrow>
+								<Button sx={{ minWidth: '0px' }}>
+									<a target={'__blank'}>
+										<FacebookIcon sx={{ color: 'black' }}></FacebookIcon>
+									</a>
+								</Button>
+							</Tooltip>
+						</div>
+					</Box>
+					<Box>
+						<img
+							style={{
+								height: '270px',
+								borderRadius: '15px 50px',
+								objectFit: 'cover',
+								width: '270px',
+							}}
+							src={f}
+							alt=""
+						/>
+						<Typography textAlign={'center'} variant="h5">
+							Akhilendra Pratap
+						</Typography>
+						<Typography
+							textAlign={'center'}
+							variant="h6"
+							sx={{ opacity: '0.7' }}
+						>
+							Bhopal, India <br /> Web Developer
+						</Typography>
+						<div style={{ display: 'flex', justifyContent: 'center' }}>
+							<Tooltip title="Linkedin" arrow>
+								<Button sx={{ minWidth: '0px' }}>
+									<a
+										target={'__blank'}
+										href="https://www.linkedin.com/in/akhilendrapratap/"
+									>
+										<LinkedInIcon sx={{ color: 'black' }}></LinkedInIcon>
+									</a>
+								</Button>
+							</Tooltip>
+							<Tooltip title="Instagram" arrow>
+								<Button sx={{ minWidth: '0px' }}>
+									<a
+										target={'__blank'}
+										href="https://www.instagram.com/akhilendra_11/"
 									>
 										<InstagramIcon
 											sx={{
