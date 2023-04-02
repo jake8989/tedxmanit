@@ -35,13 +35,13 @@ export const App = () => {
 						sx={{ background: 'black', color: 'red', border: 'red' }}
 						variant="outlined"
 					>
-						<HashLink
-							to={'#about'}
-							smooth
+						<a
+							href={`https://docs.google.com/forms/d/e/1FAIpQLSdIlZtoOTBmaNCy_jhbvHCpXomOw_LebtBprYiWodiEbeyd_w/viewform?usp=sf_link`}
 							style={{ textDecoration: 'none', color: 'red' }}
+							target='_blank'
 						>
-							Read More
-						</HashLink>
+							Resgiter here
+						</a>
 					</Button>
 				</Box>
 			</div>
