@@ -40,7 +40,7 @@ export const App = () => {
 							style={{ textDecoration: 'none', color: 'red' }}
 							target='_blank'
 						>
-							Resgiter here
+							Buy Tickets
 						</a>
 					</Button>
 				</Box>
