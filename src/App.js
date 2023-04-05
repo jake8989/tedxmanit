@@ -8,6 +8,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 // import NotFound from './components/UI/NotFound';
 import Organizers from './pages/Organizers';
 import Home from './pages/Home';
+import Form from './pages/Form'
+
 const router = createBrowserRouter([
 	{
 		path: '/',
@@ -16,6 +18,10 @@ const router = createBrowserRouter([
 	{
 		path: '/organizers',
 		element: <Organizers />,
+	},
+	{
+		path: '/buy-tickets',
+		element: <Form/>
 	},
 	{
 		path: '*',
