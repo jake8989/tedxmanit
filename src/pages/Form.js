@@ -48,7 +48,6 @@ const Form = () => {
             return;
         }
         event.preventDefault();
-        console.log(payment);
         const fData = new FormData();
         fData.append('name', name.current.value);
         fData.append('email', email.current.value);
@@ -61,18 +60,16 @@ const Form = () => {
         } else {
             fData.append('step', 'REGISTERED');
         }
-        fetch('http://localhost:8000/api/adduser', {
+        fetch(process.env.REACT_APP_URL, {
             method: 'POST',
             body: fData,
         })
             .then((resp) => {
-                console.log(resp);
                 alert('Form Submitted Succesfully');
                 name.current.value = '';
                 email.current.value = '';
                 phone.current.value = '';
                 college.current.value = '';
-                // document.getElementById('upload-photo').value = '';
                 setVal('no');
                 isSubmit(true);
             })
@@ -217,7 +214,6 @@ const Form = () => {
                                                 control={<Radio />}
                                                 label="Grab your passes Now"
                                                 onClick={() => {
-                                                    console.log('now');
                                                     setChecked(true);
                                                 }}
                                             />
@@ -226,7 +222,6 @@ const Form = () => {
                                                 control={<Radio />}
                                                 label="Grab your passes Later"
                                                 onClick={() => {
-                                                    console.log('later');
                                                     setChecked(false);
                                                 }}
                                             />
