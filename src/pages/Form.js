@@ -237,7 +237,7 @@ const Form = () => {
                                     )}
                                     {checked && (
                                         <img
-                                            src="/qr.png"
+                                            src="qr.png"
                                             style={{ height: '400px', width: '300px' }}
                                             alt="qr_payment__bar"
                                         />
