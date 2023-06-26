@@ -36,7 +36,8 @@ export const App = () => {
 						variant="outlined"
 					>
 						<a
-							href={`https://docs.google.com/forms/d/e/1FAIpQLSdIlZtoOTBmaNCy_jhbvHCpXomOw_LebtBprYiWodiEbeyd_w/viewform?usp=sf_link`}
+							// href={`https://docs.google.com/forms/d/e/1FAIpQLSdIlZtoOTBmaNCy_jhbvHCpXomOw_LebtBprYiWodiEbeyd_w/viewform?usp=sf_link`}
+							href='/buy-tickets'
 							style={{ textDecoration: 'none', color: 'red' }}
 							target="_blank"
 						>
